@@ -1,0 +1,96 @@
+/* Add this CSS to your existing stylesheet or create a new one */
+
+/* SlotCard component */
+.slot-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .slot-card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .slot-card-details {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .available-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .booked-button {
+    background-color: #f44336;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: not-allowed;
+  }
+  
+  /* AllSlots page */
+  .all-slots-container {
+    padding: 20px;
+  }
+  
+  .date-picker-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .date-picker {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .fetch-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .loading-text {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* SlotPage */
+  .slot-page-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .slot-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slot-card {
+      width: 100%;
+    }
+  }
+  

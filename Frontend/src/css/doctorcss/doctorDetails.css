@@ -1,0 +1,56 @@
+/* doctorDetails.css */
+
+.doctor-details-card {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 900px;
+  margin-left: 10%;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px; /* Larger base font size */
+  display: flex; /* Use flexbox */
+}
+
+.doctor-details-card h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 36px; /* Much larger title */
+  font-weight: 700; /* Bolder font-weight */
+  flex: 1; /* Take up available space */
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row; /* Arrange elements in a row */
+  gap: 20px; /* Increased spacing */
+  flex: 2; /* Take up available space */
+}
+
+.left-side {
+  flex: 1; /* Take up half of the available space */
+}
+
+.right-side {
+  flex: 1; /* Take up half of the available space */
+}
+
+.details-container p {
+  margin: 0;
+  color: #34495e;
+  line-height: 1.8; /* Increased line height for readability */
+  font-size: 20px; /* Larger font size for details */
+}
+
+.details-container p strong {
+  color: #2c3e50;
+  font-weight: 600; /* Bolder labels */
+  margin-right: 15px; /* Increased spacing after label */
+}
+
+.doctor-image {
+  max-width: 100%; /* Ensure the image fits its container */
+  border-radius: 8px; /* Add border-radius for the image */
+}

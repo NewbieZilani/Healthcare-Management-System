@@ -1,0 +1,38 @@
+/* Add these styles to your CSS file */
+
+.upcoming-appointments {
+    padding: 20px;
+  }
+  
+  .upcoming-appointments h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .appointment-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .appointment-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .appointment-card p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  /* Loading state styles */
+  .upcoming-appointments p.loading {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Adjust the loading styles based on your design */
+  

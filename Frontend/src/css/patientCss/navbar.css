@@ -1,0 +1,122 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(8, 0, 0);
+    padding: 10px;
+}
+
+.Navbar-child {
+    display: flex;
+}
+
+.Navbar-auth {
+    display: flex;
+    margin-left: auto;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.Navbar a.active-link {
+    color: rgb(77, 75, 75);
+   
+}
+
+.Navbar a:hover {
+    color: #70c8ce;
+    background-color: #000;
+}
+
+.Navbar button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Navbar button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* dropdown design .......................................*/
+
+
+/* Apply custom styles to the dropdown toggle */
+.custom-dropdown .dropdown-toggle {
+    background-color: white;
+    /* Background color of the toggle button */
+    color: black;
+    /* Text color of the toggle button */
+    border-radius: 20px;
+    /* Make it round by adjusting the border radius */
+    padding: 5px 10px;
+    /* Adjust padding for size */
+    font-size: 14px;
+    /* Adjust font size */
+}
+
+.custom-dropdown .dropdown-toggle:hover {
+    background-color: #615f5f;
+    /* Background color on hover */
+}
+
+/* If you want to make the arrow smaller */
+.custom-dropdown .dropdown-toggle::after {
+    font-size: 10px;
+    margin-left: 5px;
+    /* Adjust spacing between text and arrow */
+}
+
+
+/* .custom-dropdown {
+    background-color: #fff;
+   
+    border: 1px solid #ddd;
+   
+} */
+
+.custom-dropdown .dropdown-item {
+    color: #333;
+    /* Text color of dropdown items */
+    padding: 10px 20px;
+    /* Spacing for dropdown items */
+    text-decoration: none;
+    transition: background 0.3s ease;
+    font-weight: bold;
+}
+
+.custom-dropdown .dropdown-item:hover {
+    background-color: #aa9696;
+    /* Background color on hover */
+    color: #fff;
+    /* Text color on hover */
+}
+
+/* Custom text color for specific dropdown items */
+.custom-dropdown .dropdown-item:nth-child(1) {
+    color: rgb(92, 91, 91);
+    /* Change the text color for the first item */
+}
+
+.custom-dropdown .dropdown-item:nth-child(2) {
+    color: rgb(87, 86, 85);
+    /* Change the text color for the second item */
+}
+
+.custom-dropdown .dropdown-item:nth-child(3) {
+    color: rgb(77, 76, 76);
+    /* Change the text color for the third item */
+}
+
+.custom-dropdown .dropdown-item:nth-child(4) {
+    color: rgb(90, 87, 87);
+    /* Change the text color for the fourth item */
+}

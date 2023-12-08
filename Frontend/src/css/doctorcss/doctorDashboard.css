@@ -1,0 +1,24 @@
+/* doctorDashboard.css */
+
+.doctor-dashboard {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left-section {
+    flex: 0 0 200px; /* Fixed width for the left section */
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    background-color: #f4f4f4; /* Background color for the left section */
+    padding: 20px; /* Add padding as needed */
+  }
+  
+  .links {
+    /* Your link styles */
+  }
+  
+  .right-section {
+    flex: 1; /* Expand to fill available space */
+    /* Your right section styles */
+  }
+  

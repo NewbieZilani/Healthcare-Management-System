@@ -1,0 +1,39 @@
+/* allPatientsPage.css */
+
+.all-patients-page {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    margin: 60px auto;
+  }
+  
+  .all-patients-page h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .patient-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .patient-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+    /* Adjust width based on your layout */
+    box-sizing: border-box;
+  }
+  
+  .patient-card p {
+    margin: 5px 0;
+  }
+  
+  /* Add more styling as needed */
+  

@@ -1,0 +1,43 @@
+.all-patients-page {
+  padding: 20px;
+  background-color: #f4f4f4; /* Light grey background */
+  font-family: Arial, sans-serif; /* Change as needed */
+}
+
+.all-patients-page h1 {
+  text-align: center;
+  color: #333;
+}
+
+.patient-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+  padding: 20px;
+}
+
+.patient-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px; /* Fixed width, adjust as needed */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.patient-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.patient-card p {
+  margin: 10px 0;
+  color: #555; /* Dark grey text */
+}
+
+/* Loading text style */
+.loading-text {
+  text-align: center;
+  font-size: 1.2em;
+}

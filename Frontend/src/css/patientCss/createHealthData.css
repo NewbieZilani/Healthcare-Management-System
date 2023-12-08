@@ -1,0 +1,89 @@
+/* createHealthData.css */
+
+.create-health-data-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 800px;
+  margin: 60px auto;
+  padding-top: 10px;
+}
+
+.create-health-data-container h1 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.form-group input:hover,
+.form-group select:hover {
+  background-color: #ccc;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.create-health-data-button {
+  background-color: #5f5b5b;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.create-health-data-button:hover {
+  background-color: #464444;
+}
+
+/* Additional styling for double form groups */
+.form-group.double {
+  display: flex;
+}
+
+.form-group-item {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-group.double .form-group-item:last-child {
+  margin-right: 0;
+}
+
+.form-group.double.form-group-height {
+  margin-bottom: 0; /* Adjust as needed */
+}
+
+.form-group.double select {
+  margin-top: 5px; /* Adjust as needed */
+}
+
+.form-group.double input[type="checkbox"] {
+  margin-top: 10px; /* Adjust as needed */
+}

@@ -1,0 +1,59 @@
+.create-appointment-slot-container {
+  max-width: 600px; /* Increased width */
+  margin: auto;
+  padding: 40px; /* Increased padding */
+  border: 2px solid #ddd; /* Thicker border */
+  border-radius: 10px; /* Larger border-radius */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Enhanced box-shadow */
+  background-color: #fff;
+}
+
+.create-appointment-slot-container h1 {
+  font-size: 30px; /* Larger font-size */
+  font-weight: bold;
+  margin-bottom: 30px; /* Increased margin-bottom */
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px; /* Increased margin-bottom */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px; /* Increased margin-bottom */
+  font-size: 18px; /* Larger font-size */
+}
+
+input {
+  width: 100%;
+  padding: 12px; /* Increased padding */
+  font-size: 18px; /* Larger font-size */
+  border: 2px solid #ccc; /* Thicker border */
+  border-radius: 6px; /* Larger border-radius */
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 16px; /* Larger font-size */
+  margin-top: 8px; /* Increased margin-top */
+}
+
+.create-slot-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 15px; /* Increased padding */
+  border: none;
+  border-radius: 6px; /* Larger border-radius */
+  cursor: pointer;
+  font-size: 18px; /* Larger font-size */
+  width: 100%;
+  margin-top: 10px; /* Added margin-top */
+}
+
+.create-slot-button:hover {
+  background-color: #45a049;
+}
+
+/* Add additional styles as needed */

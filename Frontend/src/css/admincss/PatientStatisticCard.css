@@ -1,0 +1,43 @@
+/* PatientStatisticsCard.css */
+
+.statistics-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .statistics-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .statistics-card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff; /* or your preferred color */
+  }
+  
+  
+  /* DoctorStatisticsCard.css */
+  
+  .statistics-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .statistics-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .statistics-card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745; /* or your preferred color */
+  }
+  
